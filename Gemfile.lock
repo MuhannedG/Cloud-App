@@ -125,6 +125,7 @@ GEM
       factory_bot (~> 6.5)
       railties (>= 5.0.0)
     ffi (1.17.0-x64-mingw-ucrt)
+    ffi (1.17.0-x86_64-linux-gnu)
     fiddle (1.1.2)
     globalid (1.2.1)
       activesupport (>= 6.1)
@@ -178,7 +179,7 @@ GEM
       date
       stringio
     public_suffix (6.0.1)
-    puma (6.5.0)
+    puma (6.6.0)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.1.8)
