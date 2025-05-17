@@ -1,24 +1,20 @@
-# README
+# 🌥️ Cloud Application – Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails cloud-based application. Below are the essential steps to get it up and running.
 
-Things you may want to cover:
+---
 
-* Ruby version
+## Setup Instructions
 
-* System dependencies
+### 1. Clone the Repository
 
-* Configuration
+```bash
+git clone https://github.com/yourusername/your-cloud-app.git
+cd your-cloud-app
 
-* Database creation
+bundle install
+yarn install
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rails db:create
+rails db:migrate
+rails db:seed # optional, if you have seed data
